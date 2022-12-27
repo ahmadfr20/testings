@@ -5,7 +5,13 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   server:{
     proxy:{
-      '/v1':'https://dev.svc.dimulai.apps360.id'
+      '/v1':{
+        target: 'https://dev.svc.dimulai.apps360.id',
+        changeOrigin: true,
+        configure: (proxy, options) => {
+          // proxy will be an instance of 'http-proxy'
+        },
+      }
     }
   },
   plugins: [react()]
