@@ -9,7 +9,7 @@ export const Hero = () => {
         <h2 className=" mb-6 xl:text-5xl xl:-ml-20 md:text-3xl md:w-full lg:text-4xl lg:w-full xs:w-[250px] font-semibold font-blueberry tracking-tight xl:w-[900px] mr-1 text-gray-900 xs:text-xl">
           <span className=" inline-block">
           </span>{' '}
-          Mau ngembangin diri tiap hari?
+          Mau ngembangin diri tiapa hari?
         </h2>
         <p className="max-w-lg mb-6 lg:text-4xl lg:w-full md:text-3xl md:w-full  font-blueberry text-2xl font-semibold leading-none tracking-tight xl:text-5xl text-gray-900 sm:text-2xl xs:text-2xl md:mx-auto" >
         <span className='font-semibold' style={{ color: "#01C587"}}>#Dimulai</span> ajaaaa dulu!

@@ -9,7 +9,7 @@ const CTA = () => {
 
 
     const saveNews = () => {
-        fetch('/v1/public/email/subscribe', {
+        fetch('https://dev.svc.dimulai.apps360.id/v1/public/email/subscribe', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
