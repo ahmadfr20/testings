@@ -8,9 +8,6 @@ export default defineConfig({
       '/v1':{
         target: 'https://dev.svc.dimulai.apps360.id',
         changeOrigin: true,
-        secure: false,
-        ws: true,
-        rewrite: (path) => path.replace(/^\/api/, ""),
       }
     }
   },

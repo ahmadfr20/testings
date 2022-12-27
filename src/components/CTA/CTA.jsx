@@ -10,6 +10,7 @@ const CTA = () => {
 
     const saveNews = () => {
         fetch('/v1/public/email/subscribe', {
+          
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
@@ -19,6 +20,7 @@ const CTA = () => {
             allow_interests: formArray,
             email: formData 
           }),
+          credentials:"include"
         })
           .then((res) => res.json())
           .then((result) => setData(result.rows))
