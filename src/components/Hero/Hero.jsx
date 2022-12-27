@@ -12,7 +12,7 @@ export const Hero = () => {
           Mau ngembangin diri tiap hari?
         </h2>
         <p className="max-w-lg mb-6 lg:text-4xl lg:w-full md:text-3xl md:w-full  font-blueberry text-2xl font-semibold leading-none tracking-tight xl:text-5xl text-gray-900 sm:text-2xl xs:text-2xl md:mx-auto" >
-        <span className='font-semibold' style={{ color: "#01C587"}}>#Dimulai</span> aja dulu!
+        <span className='font-semibold' style={{ color: "#01C587"}}>#Dimulai</span> ajaaaa dulu!
         </p>
       </div>
       <div className="flex items-center sm:justify-center xs:pb-10">
